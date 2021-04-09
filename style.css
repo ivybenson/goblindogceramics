@@ -18,6 +18,18 @@ header {
   padding: 10px;
 }
 
+.completed-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.completed-item {
+  padding: 10px;
+}
+
 .footer {
   background-color: rgb(196, 196, 196);
   text-align: center;
